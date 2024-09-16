@@ -4,7 +4,7 @@
   tasks:
   - name: install nginx server
     ansible.builtin.package:
-      name: mginx
+      name: nginx
       state: present
 
   - name: start nginx server
